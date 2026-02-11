@@ -1,0 +1,89 @@
+errors.dart:296 Uncaught (in promise) DartError: Assertion failed: file:///C:/flutter/flutter/packages/flutter/lib/src/material/scaffold.dart:314:7
+_scaffolds.isNotEmpty
+"ScaffoldMessenger.showSnackBar was called, but there are currently no descendant Scaffolds to present to."
+    at Object.throw_ [as throw] (errors.dart:296:3)
+    at Object.assertFailed (errors.dart:29:3)
+    at ScaffoldMessengerState.showSnackBar (scaffold.dart:314:18)
+    at spare_parts._SparePartsPageState.new.<anonymous> (spare_parts.dart:1061:59)
+    at Generator.throw (<anonymous>)
+    at async_patch.dart:60:31
+    at _RootZone.runBinary (zone.dart:1666:54)
+    at _FutureListener.handleError (future_impl.dart:178:22)
+    at handleError (future_impl.dart:873:46)
+    at _Future._propagateToListeners (future_impl.dart:894:13)
+    at [_completeError] (future_impl.dart:674:5)
+    at _AsyncCallbackEntry.callback (future_impl.dart:760:7)
+    at Object._microtaskLoop (schedule_microtask.dart:40:11)
+    at _startMicrotaskLoop (schedule_microtask.dart:49:5)
+    at async_patch.dart:181:7
+throw_ @ errors.dart:296
+assertFailed @ errors.dart:29
+showSnackBar @ scaffold.dart:314
+(anonymous) @ spare_parts.dart:1061
+(anonymous) @ async_patch.dart:60
+runBinary @ zone.dart:1666
+handleError @ future_impl.dart:178
+handleError @ future_impl.dart:873
+_propagateToListeners @ future_impl.dart:894
+[_completeError] @ future_impl.dart:674
+(anonymous) @ future_impl.dart:760
+_microtaskLoop @ schedule_microtask.dart:40
+_startMicrotaskLoop @ schedule_microtask.dart:49
+(anonymous) @ async_patch.dart:181
+Promise.then
+_scheduleImmediateWithPromise @ async_patch.dart:179
+_scheduleImmediate @ async_patch.dart:151
+_scheduleAsyncCallback @ schedule_microtask.dart:69
+_rootScheduleMicrotask @ zone.dart:1466
+scheduleMicrotask @ zone.dart:1681
+[_asyncCompleteError] @ future_impl.dart:759
+[_completeError] @ future_impl.dart:48
+completeError @ future_impl.dart:27
+(anonymous) @ js_util_patch.dart:492
+Promise.then
+promiseToFuture @ js_util_patch.dart:495
+JSPromiseToFuture$124get$35toDart @ js_interop_patch.dart:145
+set @ firestore.dart:479
+runBody @ async_patch.dart:84
+_async @ async_patch.dart:127
+set @ firestore.dart:473
+(anonymous) @ document_reference_web.dart:33
+guardWebExceptions @ _flutterfire_internals.dart:132
+convertWebExceptions @ internals.dart:12
+set @ document_reference_web.dart:32
+set @ document_reference.dart:179
+add @ collection_reference.dart:109
+runBody @ async_patch.dart:84
+_async @ async_patch.dart:127
+add @ collection_reference.dart:105
+(anonymous) @ spare_parts.dart:1033
+runBody @ async_patch.dart:84
+_async @ async_patch.dart:127
+(anonymous) @ spare_parts.dart:1005
+handleTap @ ink_well.dart:1170
+invokeCallback @ recognizer.dart:351
+handleTapUp @ tap.dart:656
+[_checkUp] @ tap.dart:313
+handlePrimaryPointer @ tap.dart:246
+handleEvent @ recognizer.dart:703
+[_dispatch] @ pointer_router.dart:98
+(anonymous) @ pointer_router.dart:143
+forEach @ linked_hash_map.dart:21
+[_dispatchEventToRoutes] @ pointer_router.dart:141
+route @ pointer_router.dart:127
+handleEvent @ binding.dart:501
+dispatchEvent @ binding.dart:481
+dispatchEvent @ binding.dart:450
+[_handlePointerEventImmediately] @ binding.dart:426
+handlePointerEvent @ binding.dart:389
+[_flushPointerEventQueue] @ binding.dart:336
+[_handlePointerDataPacket] @ binding.dart:305
+invoke1 @ platform_dispatcher.dart:1423
+invokeOnPointerDataPacket @ platform_dispatcher.dart:336
+[_sendToFramework] @ pointer_binding.dart:405
+onPointerData @ pointer_binding.dart:225
+(anonymous) @ pointer_binding.dart:1035
+(anonymous) @ pointer_binding.dart:948
+loggedHandler @ pointer_binding.dart:541
+_callDartFunctionFast1 @ js_allow_interop_patch.dart:188
+ret @ js_allow_interop_patch.dart:81
